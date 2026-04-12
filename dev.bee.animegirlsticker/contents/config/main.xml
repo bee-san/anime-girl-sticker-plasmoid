@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="imageUrl" type="Url">
+            <label>The local transparent image displayed by the widget.</label>
+            <default></default>
+        </entry>
+
+        <entry name="displayHeight" type="Int">
+            <label>The image height in pixels.</label>
+            <default>480</default>
+            <min>128</min>
+            <max>2000</max>
+        </entry>
+    </group>
+</kcfg>

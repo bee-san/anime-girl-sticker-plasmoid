@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Codex"
+            }
+        ],
+        "Category": "Fun and Games",
+        "Description": "Display one transparent character image as a desktop sticker.",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "preferences-desktop-wallpaper",
+        "Id": "dev.bee.animegirlsticker",
+        "License": "MIT",
+        "Name": "Anime Girl Sticker",
+        "Version": "1.0.0"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
